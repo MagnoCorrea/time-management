@@ -1,0 +1,25 @@
+{
+  "name": "time-management",
+  "version": "1.0.0",
+  "description": "A funny an functional system to manage you time, activities to be more productive",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagnoCorrea/time-management.git"
+  },
+  "keywords": [],
+  "author": "Magno Correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagnoCorrea/time-management/issues"
+  },
+  "homepage": "https://github.com/MagnoCorrea/time-management#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
