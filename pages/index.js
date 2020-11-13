@@ -1,21 +1,12 @@
 import React, { Component } from "react";
 
-import "tabler-react/dist/Tabler.css";
+import Home from "../src/pages/Home"
 
-import { Card, Button } from "tabler-react";
-
-class Home extends Component {
+class Index extends Component {
   render() {
     return (
-      <Card>
-        <Card.Header>
-          <Card.Title>Card Title</Card.Title>
-        </Card.Header>
-        <Card.Body>
-          <Button color="primary">A Button</Button>
-        </Card.Body>
-      </Card>
+      <Home></Home>
     );
   }
 }
-export default Home;
+export default Index;
