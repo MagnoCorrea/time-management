@@ -13,7 +13,8 @@ class TimeCard extends Component {
     }
 
     render() {
-        const {data} = this.state;
+//        const {data} = this.state;
+        const {data} = this.props.data;
         return (
         <Card>
             <Card.Header>
