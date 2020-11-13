@@ -4,7 +4,9 @@ import { Card, Button } from "tabler-react";
 
 class TimeCard extends Component {
     state = {
-        data:{}
+        data:{
+            value:""
+        }
     }
     
     constructor(props) {
@@ -13,8 +15,7 @@ class TimeCard extends Component {
     }
 
     render() {
-//        const {data} = this.state;
-        const data = this.props.data || {value:""};
+        const {data} = this.state;
         return (
         <Card>
             <Card.Header>
