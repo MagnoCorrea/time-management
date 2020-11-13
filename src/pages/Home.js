@@ -8,8 +8,9 @@ class Home extends Component {
   render() {
     return (
       <SiteWrapper>
-          {json.data.map((item) =>(
-            <TimeCard data={item}></TimeCard>
+          {json.data.map((item, index) =>(
+            <TimeCard key={index}
+              data={item}></TimeCard>
           )
           )}
       </SiteWrapper>

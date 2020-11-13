@@ -159,7 +159,7 @@ class SiteWrapper extends Component {
           <Site.Wrapper
             headerProps={{
               href: "/",
-              alt: "Tabler React",
+              alt: "Time Management",
               imageURL: "./demo/brand/tabler.svg",
               navItems: (
                 <Nav.Item type="div" className="d-none d-md-flex">
@@ -171,7 +171,7 @@ class SiteWrapper extends Component {
                     RootComponent="a"
                     color="primary"
                   >
-                    Source code
+                    Código fonte
                   </Button>
                 </Nav.Item>
               ),
