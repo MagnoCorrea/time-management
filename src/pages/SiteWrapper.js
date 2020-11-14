@@ -1,3 +1,5 @@
+import Head from 'next/head' //Inserido Soh por causa do next que nao coloca header facil... :/
+
 import React, { Component } from "react";
 import {
     Site,
@@ -156,6 +158,12 @@ class SiteWrapper extends Component {
           false
         );
         return (
+        <div>
+        <Head>
+            <title>Time Management - 🕑</title>
+            <meta charSet="utf-8" />
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
           <Site.Wrapper
             headerProps={{
               href: "/",
@@ -258,6 +266,8 @@ class SiteWrapper extends Component {
           >
             {this.props.children}
           </Site.Wrapper>
+      </div>            
+
       );
     }
   }
